@@ -5,7 +5,10 @@ This Kaggle-Challenge build a predictive model to determine which passenger from
 In our first attempt we got a point 0.Then in second attempts we used Random forest and we got a point 0.78816.
 
 
-In order to get higher value we tried in our 3rd attempt Gradiant booster model that gave us the value 0.79611 which is much better than previous model
+In order to get higher value we tried in our 3rd attempt Gradiant booster model that gave us the value 0.79611 which is much better than previous model.
+
+
+We did modified  preprocessing steps and set PCA with number of components=2 and thereafter run trained the model again an dfinally got a better accuracy for predicted values which is 0.79635. This is our best score so far.
 
 
 
