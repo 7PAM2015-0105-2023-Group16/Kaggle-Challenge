@@ -7,6 +7,7 @@ In our first attempt we got a point 0.Then in second attempts we used Random for
 
 In order to get higher value we tried in our 3rd attempt Gradiant booster model that gave us the value 0.79611 which is much better than previous model.
 
+Used Explainable AI(Permutation Importance) methods to find out feature importance.
 
 We modified preprocessing steps and set PCA with number of components=2 and thereafter run the trained model again and finally got a better accuracy for predicted values which is 0.79635. This is our best score so far.
 
